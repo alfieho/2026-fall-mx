@@ -1,5 +1,9 @@
 body {
     background-color: light-dark(rgba(95, 158, 160, 0.334), cadetblue);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 h1 {
@@ -25,7 +29,7 @@ footer {
         border: 5px solid red;
     }
 
-    label:has( input:checked ){
+    label:has(input:checked) {
         color: rgb(255, 4, 0);
         background-color: darksalmon;
     }
