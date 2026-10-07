@@ -34,3 +34,7 @@ footer {
         background-color: darksalmon;
     }
 }
+
+[id="test"] {
+    border: 6px double purple;
+}
